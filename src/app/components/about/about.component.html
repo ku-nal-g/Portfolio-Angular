@@ -1,0 +1,61 @@
+<div class="container-fluid parent-div">
+  <div class="row p-5">
+    <div class="col-md-6">
+      <div class="text-center">
+        <img class="img-fluid" src="assets/images/user.png" alt="user-image">
+      </div>
+    </div>
+    <div class="col-md-6 text-div p-3">
+      <p class="line-height">About Me</p>
+      <h6 class="line-height">I am Kunal Gupta from Siwan ,Bihar. I have done my BTech , C.S.E from ICFAI University Dehardun with an aggregate of 9.2 C.G.P.A. With advanced knowledge of C, C++ , Angular,
+        JavaScript, TypeScript, Java. Practical application of writing flawless
+        programs. Passionate individual with great interpersonal and
+        communication skills & Loves to solve business challenges.</h6>
+        <div class="about-links mt-3">.
+          <a (click)="showSkillsDiv()">Skills</a>
+          <a (click)="showExpDiv()">Experience</a>
+          <a (click)="showEduDiv()">Education</a>
+        </div>
+        <!-- skills div-->
+        <div *ngIf="skillsSection" class="row mt-3 p-2">
+          <div class="col-md-12 line-height">
+            <span style="color: rgb(253, 27, 79);">Web Development</span><br>
+            <small style="color: white;">Designing Web/App interfaces</small>
+          </div>
+        </div>
+
+        <!-- Experience div-->
+        <div *ngIf="expSection" class="row mt-3 p-2">
+          <div class="col-md-12 line-height">
+            <span style="color: rgb(253, 27, 79);">Celebal Technologies (07/2022 - Present)</span><br>
+            <small style="color: white;">Junior Associate -  Working as a Frontend Developer using Angular Framework</small>
+          </div>
+          <div class="col-md-12 line-height">
+            <span style="color: rgb(253, 27, 79);">Codestore Technologies (01/2022 - 06/2022)</span><br>
+            <small style="color: white;">Trainee Software Engineer -  Worked as Frontend Developer using Angular
+              Framework</small>
+          </div>
+          <div class="col-md-12 line-height">
+            <span style="color: rgb(253, 27, 79);">Actionable Science & Private Limited Dehradun (11/2021 - 12/2021)</span><br>
+            <small style="color: white;">Product Support Engineer Intern - Created flow for chatbot using Yaml</small>
+          </div>
+        </div>
+
+        <!--Education -div-->
+        <div *ngIf="eduSection" class="row mt-3 p-2">
+          <div class="col-md-12 line-height">
+            <span style="color: rgb(253, 27, 79);">BTECH C.S.E(2018-2022) ICFAI University Dehardun </span><br>
+            <small style="color: white;">9.2 CGPA</small>
+          </div>
+          <div class="col-md-12 line-height">
+            <span style="color: rgb(253, 27, 79);">Class 12 , School of Craetive Learning ,Patna(2016-2018)</span><br>
+            <small style="color: white;">69.5%</small>
+          </div>
+          <div class="col-md-12 line-height">
+            <span style="color: rgb(253, 27, 79);">Class 10 , Saraswati Vidya Mandir, Maharajganj(2015 - 2016)</span><br>
+            <small style="color: white;">10 CGPA</small>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>

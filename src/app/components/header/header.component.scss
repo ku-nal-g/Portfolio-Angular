@@ -1,0 +1,31 @@
+.navbar-brand{
+  margin-left: 12%;
+}
+a.navbar-brand{
+  font-size: 1.9rem;
+}
+span.first-letter{
+  color: rgb(253, 27, 79);
+}
+.navbar-nav{
+  margin-left: 38%;
+}
+ul li a{
+  color: white;
+  padding-right: 15px;
+  text-decoration: none;
+  margin-right: 14px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid black;
+}
+.nav-item a:hover{
+  border-bottom: 2px solid rgb(253, 27, 79) !important;;
+  padding-right: 15px;
+  text-decoration: none;
+  margin-right: 14px;
+  padding-bottom: 8px;
+}
+.navbar-toggler-icon{
+  padding: 12%;
+  border-radius: 5px;
+}

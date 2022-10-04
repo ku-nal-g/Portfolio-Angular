@@ -1,0 +1,51 @@
+.parent-div {
+  background-color: black;
+  min-height: 100vh;
+}
+
+.text-center p {
+  font-size: 2rem;
+  color: white;
+}
+
+.card {
+  width: 20rem;
+  height: 18rem;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  background-color: rgb(38, 38, 38) !important;
+  transition: width 3s, height 4s, transform 2s;
+}
+
+.card:hover {
+  border: none;
+  color: white;
+  border-radius: 8px;
+  background-color: rgb(254, 27, 78) !important;
+  width: 22rem !important;
+  height: 20rem;
+}
+
+.card a {
+  text-decoration: none;
+  color: white;
+}
+
+a.btn {
+  background-color: rgb(254, 27, 78) !important;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+a.btn:hover {
+  color: black;
+  background-color: white !important;
+  border: none;
+  outline: none;
+}
+
+.card-body h5 {
+  font-size: 1.5rem;
+}

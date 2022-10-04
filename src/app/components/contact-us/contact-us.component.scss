@@ -1,0 +1,85 @@
+.parent-div {
+  background-color: black;
+}
+
+h2 {
+  color: white;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+input[type="text"] {
+  background-color: rgb(38, 38, 38) !important;
+  border: none;
+  outline: none;
+  padding: 12px;
+  color: white;
+}
+
+input[type="text"]:focus {
+  background-color: rgb(38, 38, 38) !important;
+  border: none;
+  outline: none;
+  padding: 12px;
+  color: white;
+}
+
+input[type="email"] {
+  background-color: rgb(38, 38, 38) !important;
+  border: none;
+  outline: none;
+  padding: 12px;
+  color: white;
+}
+
+input[type="email"]:focus {
+  background-color: rgb(38, 38, 38) !important;
+  border: none;
+  outline: none;
+  padding: 12px;
+  color: white;
+}
+
+textarea {
+  background-color: rgb(38, 38, 38) !important;
+  border: none;
+  outline: none;
+  color: white;
+}
+textarea:focus {
+  background-color: rgb(38, 38, 38) !important;
+  border: none;
+  outline: none;
+  color: white;
+}
+button.download-btn {
+  background-color: rgb(254, 27, 78);
+  color: white;
+  cursor: pointer;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+button.download-btn:hover {
+  background-color: white;
+  color: rgb(254, 27, 78);
+  cursor: pointer;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+
+a.download-btn {
+  background-color: rgb(254, 27, 78);
+  color: white;
+  cursor: pointer;
+  padding: 10px 25px;
+  border-radius: 5px;
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  // background-color: black;
+}
+
+.owl-prev {
+  border-radius: 50% !important;
+  background-color: rgb(254, 27, 78) !important;
+  color: white !important;
+  padding: 8px 15px !important;
+}
+
+.owl-next {
+  border-radius: 50% !important;
+  background-color: rgb(254, 27, 78) !important;
+  color: white !important;
+  padding: 8px 15px !important;
+}
